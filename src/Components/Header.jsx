@@ -29,8 +29,8 @@ const Header = () => {
   const navItems = ['HOME', 'MUSING', 'SELFCARE', 'BEAUTY', 'CAREER', 'RELATIONSHIPS', 'FOOD & RECIPES'];
 
   return (
-    <div className='w-full h-20 bg-green-200 flex items-center justify-around'>
-      <div className='w-40 h-[60%] bg-amber-500 flex justify-center items-center'>
+    <div className='w-full h-20 bg-[#9B7EBD] flex items-center justify-around'>
+      <div className='w-40 h-[60%] flex justify-center items-center'>
         <img src="images/trylogo-removebg-preview.png" alt="" className='w-14' />
         <h3 className='text-[14px] font-medium'>The Debug Diary</h3>
       </div>

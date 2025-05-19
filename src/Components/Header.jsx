@@ -63,7 +63,7 @@ const Header = () => {
         />
       </div>
       {mobileMenu && (
-        <ul className='absolute top-20 right-4 w-[70vw] h-120 bg-lime-700 rounded shadow-lg p-4 flex flex-col gap-3 z-50 md:hidden'>
+        <ul className='absolute top-20 right-4 w-[70vw] h-120 bg-[#D4BEE4] rounded shadow-lg p-4 flex flex-col gap-3 z-50 md:hidden'>
         {navItems.map((item, index) => (
           <li key={index} className='cursor-pointer'>
             {item}
